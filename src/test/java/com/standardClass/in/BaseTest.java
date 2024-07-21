@@ -1,0 +1,99 @@
+package com.standardClass.in;
+
+import java.io.File;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.time.Duration;
+import java.util.Date;
+
+import org.apache.commons.io.FileUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.ITestResult;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
+
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
+import com.testCase.in.OHRM_TCL_001;
+
+
+
+public class BaseTest {
+
+	public static WebDriver driver;
+	static ExtentReports extent;
+	public static ExtentTest test;
+	
+	//@Parameters("Browser")
+	/*@BeforeClass
+	public void initialSetup(String Browser) {
+		
+		if(Browser.equalsIgnoreCase("chrome") )
+			 driver = new ChromeDriver();
+			else if(Browser.equalsIgnoreCase("firefox"))
+			 driver = new FirefoxDriver();
+			else if(Browser.equalsIgnoreCase("EdgeDriver")) 
+			 driver = new EdgeDriver();
+	}*/
+	
+//	@Parameters("URL")
+	@BeforeMethod
+	public void openBrowserURL() {
+		 driver = new ChromeDriver();
+			
+		 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		 driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+	}
+	
+	
+	@BeforeTest
+	public void extentReportSetup() {
+		extent = new ExtentReports("./ExtentReport/MyReport.html",true);
+		test = extent.startTest("OrangeHRM Report");
+		test.assignAuthor("Divya").assignCategory("Sanity testing");
+		
+	}
+	
+	
+	@AfterTest
+	public void extentClose() {
+		extent.endTest(test);
+		extent.flush();
+	}
+	
+
+	 @AfterMethod
+		public void Failed(ITestResult result) throws IOException {
+			if(result.getStatus()==result.FAILURE) {
+				String imgPath=ScreenCapture(driver,result.getMethod().getMethodName());
+				
+				 test.log(LogStatus.FAIL,result.getMethod().getMethodName()+ " is failed");
+				test.log(LogStatus.FAIL, result.getThrowable());
+				test.log(LogStatus.FAIL, test.addScreenCapture(imgPath));
+			}
+			driver.quit();
+			}
+	
+
+	
+	 public String ScreenCapture(WebDriver driver,String filePath) {
+		 String dateName=new SimpleDateFormat("yyyymmddhhmmss").format(new Date());
+		 File src=( (TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+			String destPath=System.getProperty("user.dir")+"\\ScreenShot\\"+dateName+filePath+".jpg";				try {
+			FileUtils.copyFile(src, new File(destPath));
+			} catch (IOException e) {
+						e.printStackTrace();
+			}  
+			return destPath;
+	 }
+	
+}
