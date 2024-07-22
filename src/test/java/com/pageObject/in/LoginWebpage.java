@@ -33,7 +33,6 @@ public class LoginWebpage extends CommonClass {
 	public void userNameField(String user) throws InterruptedException {
 		//username.sendKeys(Keys.CONTROL+Keys.chord("A")+Keys.DELETE);
 		username.clear();
-		sleep(3000);
 		username.sendKeys(user);
 		sleep(2000);
 	}
@@ -43,6 +42,30 @@ public class LoginWebpage extends CommonClass {
 		password.sendKeys(pw);
 		sleep(2000);
 	}
+	
+	public void keyboardUserField(String user) throws InterruptedException {
+		username.sendKeys(Keys.TAB);
+		username.clear();
+		sleep(2000);
+		username.sendKeys(user);
+		sleep(2000);
+	}
+	
+	public void keyboardPw(String pw) throws InterruptedException {
+		password.sendKeys(Keys.TAB);
+		password.clear();
+		sleep(2000);
+		password.sendKeys(pw);
+		sleep(2000);
+	}
+	
+	public void keyboardLogin() throws InterruptedException {
+		loginBtn.sendKeys(Keys.TAB);
+		loginBtn.sendKeys(Keys.ENTER);
+		sleep(4000);
+	}
+	
+	
 	
 	public void login() throws InterruptedException {
 		loginBtn.click();

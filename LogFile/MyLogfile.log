@@ -1,0 +1,44 @@
+[INFO ] 2024-07-22 17:15:22.816 [main] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-22 17:15:28.630 [main] BaseTest - Application Url is opened
+[INFO ] 2024-07-22 17:15:28.649 [main] BaseTest - Username is entering
+[INFO ] 2024-07-22 17:15:29.398 [main] BaseTest - Password is entering
+[INFO ] 2024-07-22 17:15:29.663 [main] BaseTest - Login button is Clicked
+[ERROR] 2024-07-22 17:15:34.691 [main] BaseTest - Failure information is executing
+[INFO ] 2024-07-22 17:15:34.894 [main] BaseTest - Application url is closed
+[INFO ] 2024-07-22 17:18:03.164 [main] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-22 17:18:09.736 [main] BaseTest - Application Url is opened
+[INFO ] 2024-07-22 17:18:09.813 [main] BaseTest - Username is entering
+[INFO ] 2024-07-22 17:18:10.439 [main] BaseTest - Password is entering
+[INFO ] 2024-07-22 17:18:14.782 [main] BaseTest - Login button is Clicked
+[ERROR] 2024-07-22 17:18:19.816 [main] BaseTest - Failure information is executing
+[INFO ] 2024-07-22 17:18:20.069 [main] BaseTest - Application url is closed
+[INFO ] 2024-07-22 17:18:31.488 [main] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-22 17:18:39.781 [main] BaseTest - Application Url is opened
+[INFO ] 2024-07-22 17:18:39.831 [main] BaseTest - Username is entering
+[INFO ] 2024-07-22 17:18:40.528 [main] BaseTest - Password is entering
+[INFO ] 2024-07-22 17:18:44.904 [main] BaseTest - Login button is Clicked
+[ERROR] 2024-07-22 17:18:49.959 [main] BaseTest - Failure information is executing
+[INFO ] 2024-07-22 17:18:50.191 [main] BaseTest - Application url is closed
+[INFO ] 2024-07-22 17:20:03.547 [main] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-22 17:20:12.362 [main] BaseTest - Application Url is opened
+[INFO ] 2024-07-22 17:20:12.433 [main] BaseTest - Username is entering
+[INFO ] 2024-07-22 17:20:17.182 [main] BaseTest - Password is entering
+[INFO ] 2024-07-22 17:20:25.658 [main] BaseTest - Login button is Clicked
+[ERROR] 2024-07-22 17:20:30.726 [main] BaseTest - Failure information is executing
+[INFO ] 2024-07-22 17:20:31.067 [main] BaseTest - Application url is closed
+[INFO ] 2024-07-22 17:23:40.277 [main] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-22 17:23:51.152 [main] BaseTest - Application Url is opened
+[INFO ] 2024-07-22 17:23:51.213 [main] BaseTest - Username is entering
+[INFO ] 2024-07-22 17:23:55.954 [main] BaseTest - Password is entering
+[INFO ] 2024-07-22 17:24:04.400 [main] BaseTest - Login button is Clicked
+[ERROR] 2024-07-22 17:24:04.454 [main] BaseTest - Failure information is executing
+[INFO ] 2024-07-22 17:24:04.591 [main] BaseTest - Application url is closed
+[INFO ] 2024-07-22 17:26:44.932 [main] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-22 17:26:55.594 [main] BaseTest - Application Url is opened
+[ERROR] 2024-07-22 17:27:04.614 [main] BaseTest - Failure information is executing
+[INFO ] 2024-07-22 17:27:04.684 [main] BaseTest - Application url is closed
+[INFO ] 2024-07-22 17:27:05.649 [main] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-22 17:27:19.102 [main] BaseTest - Application Url is opened
+[ERROR] 2024-07-22 17:27:28.085 [main] BaseTest - Failure information is executing
+[INFO ] 2024-07-22 17:27:28.161 [main] BaseTest - Application url is closed
+[INFO ] 2024-07-22 17:27:29.155 [main] BaseTest - Chrome browser is opened

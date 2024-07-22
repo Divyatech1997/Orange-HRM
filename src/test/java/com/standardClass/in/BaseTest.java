@@ -36,18 +36,34 @@ public class BaseTest {
 	public static WebDriver driver;
 	static ExtentReports extent;
 	public static ExtentTest test;
+	public static Logger log = LogManager.getLogger(BaseTest.class);
+
 	
+ 	
 	@Parameters("Browser")
 	@BeforeClass
 	public void initialSetup(String Browser) {
 		
-		if(Browser.equalsIgnoreCase("chrome") ) 
+		if(Browser.equalsIgnoreCase("chrome") ) {
 			 driver = new ChromeDriver();
-			else if(Browser.equalsIgnoreCase("firefox"))
+		log.info("Chrome browser is opened");
+		}
+			else if(Browser.equalsIgnoreCase("firefox")) {
 			 driver = new FirefoxDriver();
-			else if(Browser.equalsIgnoreCase("EdgeDriver")) 
-			 driver = new EdgeDriver();
+		log.info("Chrome browser is opened");
+			}
+		
+			else if(Browser.equalsIgnoreCase("microsoft")) {
+				 driver = new EdgeDriver();
+			log.info("Microsoft browser is opened");
+				}
+			
+		
 	}
+	
+	
+	
+
 	
 	@Parameters("URL")
 	@BeforeMethod
@@ -55,7 +71,7 @@ public class BaseTest {
 		 driver.manage().window().maximize();
 		 driver.get(url);
 		 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-		 
+		log.info("Application Url is opened"); 
 	}
 	
 	
@@ -77,6 +93,7 @@ public class BaseTest {
 
 	 @AfterMethod
 		public void Failed(ITestResult result) throws IOException {
+		 log.error("Failure information is executing");
 			if(result.getStatus()==result.FAILURE) {
 				String imgPath=ScreenCapture(driver,result.getMethod().getMethodName());
 				
@@ -85,7 +102,8 @@ public class BaseTest {
 				 test.log(LogStatus.FAIL, result.getThrowable());
 				
 			}
-			driver.quit();
+			driver.close();
+			log.info("Application url is closed");
 			}
 	
 

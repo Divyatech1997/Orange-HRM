@@ -5,8 +5,8 @@
 	<parameter name="URL" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"></parameter>
   <test  name="Sanity Test">
     <classes>
-	<class name="com.testCase.in.OHRM_TCL_001"/>
-	 <class name="com.testCase.in.OHRM_TCL_002"/>
+	  <class name="com.testCase.in.OHRM_TCL_001"/>
+      <class name="com.testCase.in.OHRM_TCL_002"/>
       <class name="com.testCase.in.OHRM_TCL_003"/>
       <class name="com.testCase.in.OHRM_TCL_004"/>
       <class name="com.testCase.in.OHRM_TCL_005"/>
@@ -18,7 +18,7 @@
       <class name="com.testCase.in.OHRM_TCL_011"/>
       <class name="com.testCase.in.OHRM_TCL_012"/>
       <class name="com.testCase.in.OHRM_TCL_013"/>
-	
-	 		  </classes>
+      <class name="com.testCase.in.OHRM_TCL_014"/>
+     </classes>
   </test> <!-- Sanity Test -->
 </suite> <!-- Orange-HRM -->

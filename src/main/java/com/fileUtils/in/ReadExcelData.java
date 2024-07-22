@@ -2,9 +2,11 @@ package com.fileUtils.in;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 
 import org.apache.poi.ss.usermodel.DataFormatter;
+import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.annotations.DataProvider;
@@ -250,19 +252,19 @@ public class ReadExcelData {
 	XSSFSheet sheet = workbook.getSheet("Sheet1");
 	
 	int RowCount = sheet.getPhysicalNumberOfRows();
-	System.out.println(RowCount);
+	//System.out.println(RowCount);
 	
 	
 	int ColumnCount = sheet.getRow(0).getLastCellNum();
-	System.out.println(ColumnCount);
+	//System.out.println(ColumnCount);
 	String data[][]=new String[RowCount-1][ColumnCount];
 	
 	for(int i=0;i<RowCount-1;i++) {
 		for(int j=0;j<ColumnCount;j++) {
 			DataFormatter df=new DataFormatter();
 			data[i][j]=df.formatCellValue(sheet.getRow(i+1).getCell(j));
-			System.out.print(data[i][j]+" ");
-		}System.out.println();
+			//System.out.print(data[i][j]+" ");
+		}//System.out.println();
 	}
 	workbook.close();
 	excelFile.close();
@@ -386,7 +388,24 @@ public class ReadExcelData {
 	return data;
 	}
 
-	
+	@DataProvider(name="login13",indices=13)
+	public String[][] excelData13() throws IOException{
+		File file = new File(".\\TestData\\TestData.xlsx");
+		FileInputStream fis = new FileInputStream(file);
+		XSSFWorkbook workbook = new XSSFWorkbook(fis);
+		XSSFSheet sheet = workbook.getSheet("Sheet1");
+		int rowCount = sheet.getPhysicalNumberOfRows();
+		int columnCount = sheet.getRow(0).getLastCellNum();
+		String data[][] = new String[rowCount-1][columnCount];
+		for(int i=0;i<rowCount-1;i++) {
+			for(int j=0;j<columnCount;j++) {
+				DataFormatter df = new DataFormatter();
+				data [i][j] = df.formatCellValue(sheet.getRow(i+1).getCell(j));
+			}}
+		workbook.close();
+		fis.close();
+		return data;
+		}
 	
 	
 }
