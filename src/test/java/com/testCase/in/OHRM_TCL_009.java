@@ -2,21 +2,16 @@ package com.testCase.in;
 
 import org.openqa.selenium.By;
 import org.testng.Assert;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.fileUtils.in.ReadExcelData;
-import com.listener.in.ClassListener;
 import com.pageObject.in.LoginWebpage;
 import com.relevantcodes.extentreports.LogStatus;
 import com.standardClass.in.BaseTest;
 
-
-@Listeners(ClassListener.class)
-public class OHRM_TCL_001 extends BaseTest {
-	
-	@Test(dataProvider="login0",dataProviderClass=ReadExcelData.class)
-	public void vUsvPw(String user,String pw) throws InterruptedException {
+public class OHRM_TCL_009 extends BaseTest {
+	@Test(dataProvider="login8",dataProviderClass=ReadExcelData.class)
+	public void valUserSpecialCharPw(String user,String pw) throws InterruptedException {
 		LoginWebpage login=new LoginWebpage(driver);
 		login.userNameField(user);
 		login.passWordField(pw);
@@ -26,4 +21,5 @@ public class OHRM_TCL_001 extends BaseTest {
 		Assert.assertEquals(Actual, Expected);
 		test.log(LogStatus.PASS,"Test is passed");
 	}
+
 }

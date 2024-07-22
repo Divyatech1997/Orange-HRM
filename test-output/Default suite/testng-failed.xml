@@ -8,7 +8,7 @@
           <include name="extentClose"/>
           <include name="extentReportSetup"/>
           <include name="openBrowserURL"/>
-          <include name="userLogin" invocation-numbers="1 2"/>
+          <include name="userLogin"/>
           <include name="Failed"/>
         </methods>
       </class> <!-- com.testCase.in.OHRM_TCL_001 -->

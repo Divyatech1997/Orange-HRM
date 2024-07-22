@@ -13,12 +13,16 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
@@ -33,25 +37,25 @@ public class BaseTest {
 	static ExtentReports extent;
 	public static ExtentTest test;
 	
-	//@Parameters("Browser")
-	/*@BeforeClass
+	@Parameters("Browser")
+	@BeforeClass
 	public void initialSetup(String Browser) {
 		
-		if(Browser.equalsIgnoreCase("chrome") )
+		if(Browser.equalsIgnoreCase("chrome") ) 
 			 driver = new ChromeDriver();
 			else if(Browser.equalsIgnoreCase("firefox"))
 			 driver = new FirefoxDriver();
 			else if(Browser.equalsIgnoreCase("EdgeDriver")) 
 			 driver = new EdgeDriver();
-	}*/
+	}
 	
-//	@Parameters("URL")
+	@Parameters("URL")
 	@BeforeMethod
-	public void openBrowserURL() {
-		 driver = new ChromeDriver();
-			
+	public void openBrowserURL(String url) {
+		 driver.manage().window().maximize();
+		 driver.get(url);
 		 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-		 driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+		 
 	}
 	
 	
@@ -77,8 +81,9 @@ public class BaseTest {
 				String imgPath=ScreenCapture(driver,result.getMethod().getMethodName());
 				
 				 test.log(LogStatus.FAIL,result.getMethod().getMethodName()+ " is failed");
-				test.log(LogStatus.FAIL, result.getThrowable());
-				test.log(LogStatus.FAIL, test.addScreenCapture(imgPath));
+				 test.log(LogStatus.FAIL, test.addScreenCapture(imgPath));
+				 test.log(LogStatus.FAIL, result.getThrowable());
+				
 			}
 			driver.quit();
 			}
