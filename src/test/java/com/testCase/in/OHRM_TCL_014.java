@@ -20,7 +20,7 @@ public class OHRM_TCL_014 extends BaseTest{
 	
 	
 	
-	@Test(dataProvider="login13",dataProviderClass=ReadExcelData.class)
+	@Test(dataProvider="login0",dataProviderClass=ReadExcelData.class)
 	public void loginByKeyboardkeys(String user, String pw) throws InterruptedException {
 		LoginWebpage login = new LoginWebpage(driver);
 		log.info("Username is entering");
@@ -32,7 +32,7 @@ public class OHRM_TCL_014 extends BaseTest{
 		String Actual=driver.findElement(By.xpath("//*[@class='oxd-topbar-header-breadcrumb']/h6")).getText();
 		String Expected="Dashboard";
 		Assert.assertEquals(Actual, Expected);
-		test.log(LogStatus.PASS,"Test is passed successfully");
+		test.log(LogStatus.PASS,"loginByKeyboardkeys Test is passed successfully");
 
 	}
 

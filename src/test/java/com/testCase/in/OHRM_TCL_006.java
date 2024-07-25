@@ -13,19 +13,19 @@ public class OHRM_TCL_006 extends BaseTest {
 	@Test(dataProvider="login5",dataProviderClass=ReadExcelData.class)
 	public void empUsValPw(String user,String pw) throws InterruptedException {
 		LoginWebpage login=new LoginWebpage(driver);
+		log.info("Username is entering");
 		login.userNameField(user);
+		log.info("Password is entering");
 		login.passWordField(pw);
 		login.login();
+		log.info("Login field is clicked");
 		String ActualUs=driver.findElement(By.xpath("//*[contains(@class,'row')][1]/div/span")).getText();
 		String ExpectedUs="Required";
 		Assert.assertEquals(ActualUs, ExpectedUs);
-		
 		String Actual=driver.findElement(By.xpath("//*[@role='alert']/div/p")).getText();
 		String Expected="Invalid credentials";
 		Assert.assertEquals(Actual, Expected);
-		
-
-		test.log(LogStatus.PASS,"Test is passed");
+		test.log(LogStatus.PASS,"empUsValPw Test is passed");
 	}
 
 }

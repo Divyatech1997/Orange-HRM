@@ -3,16 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testCase.in.OHRM_TCL_014">
+      <class name="com.testCase.in.OHRM_TCL_025">
         <methods>
-          <include name="extentClose"/>
-          <include name="initialSetup"/>
-          <include name="openBrowserURL"/>
-          <include name="extentReportSetup"/>
-          <include name="loginByKeyboardkeys"/>
-          <include name="Failed"/>
+          <include name="OpeningBrowserwithoutLoggedOut"/>
         </methods>
-      </class> <!-- com.testCase.in.OHRM_TCL_014 -->
+      </class> <!-- com.testCase.in.OHRM_TCL_025 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

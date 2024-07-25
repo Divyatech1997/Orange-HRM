@@ -88,13 +88,15 @@ public class BaseTest {
 	public void extentClose() {
 		extent.endTest(test);
 		extent.flush();
+		
 	}
 	
 
 	 @AfterMethod
 		public void Failed(ITestResult result) throws IOException {
-		 log.error("Failure information is executing");
+		 
 			if(result.getStatus()==result.FAILURE) {
+				log.error("Failure information is executing");
 				String imgPath=ScreenCapture(driver,result.getMethod().getMethodName());
 				
 				 test.log(LogStatus.FAIL,result.getMethod().getMethodName()+ " is failed");

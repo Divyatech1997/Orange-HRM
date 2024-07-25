@@ -69,11 +69,20 @@ public class LoginWebpage extends CommonClass {
 	
 	public void login() throws InterruptedException {
 		loginBtn.click();
-		sleep(4000);
+		sleep(5000);
 	}
 	
 	public void forgotPwLink() {
 		forgotBtn.click();
+	}
+	
+	public String defaultuserfieldtext() {
+		return username.getText();
+		
+	}
+
+	public String defaultpassfieldtext() {
+		return username.getText();
 	}
 
 }

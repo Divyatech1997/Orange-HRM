@@ -408,4 +408,70 @@ public class ReadExcelData {
 		}
 	
 	
+	
+	@DataProvider(name="login14",indices=14)
+	public String[][] excelData14() throws IOException{
+		File file = new File(".\\TestData\\TestData.xlsx");
+		FileInputStream fis = new FileInputStream(file);
+		XSSFWorkbook workbook = new XSSFWorkbook(fis);
+		XSSFSheet sheet = workbook.getSheet("Sheet1");
+		int rowCount = sheet.getPhysicalNumberOfRows();
+		int columnCount = sheet.getRow(0).getLastCellNum();
+		String[][] data = new String[rowCount-1][columnCount];
+		for(int i=0;i<rowCount-1;i++) {
+			for(int j=0;j<columnCount;j++) {
+				DataFormatter df = new DataFormatter();
+				data[i][j] = df.formatCellValue(sheet.getRow(i+1).getCell(j));
+			}
+				}
+		workbook.close();
+		fis.close();
+		return data;
+		
+	}
+			
+			
+	@DataProvider(name="login15",indices=15)
+	public String[][] excelData15() throws IOException{
+		File file = new File(".\\TestData\\TestData.xlsx");
+		FileInputStream fis = new FileInputStream(file);
+		XSSFWorkbook workbook = new XSSFWorkbook(fis);
+		XSSFSheet sheet = workbook.getSheet("Sheet1");
+		int rowCount = sheet.getPhysicalNumberOfRows();
+		int columnCount = sheet.getRow(0).getLastCellNum();
+		String[][] data = new String[rowCount-1][columnCount];
+		for(int i=0;i<rowCount-1;i++) {
+			for(int j=0;j<columnCount;j++) {
+				DataFormatter df = new DataFormatter();
+				data[i][j] = df.formatCellValue(sheet.getRow(i+1).getCell(j));
+			}
+				}
+		workbook.close();
+		fis.close();
+		return data;
+		
+	}
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
 }
