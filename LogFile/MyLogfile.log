@@ -1,0 +1,290 @@
+[INFO ] 2024-07-25 15:12:42.366 [main] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-25 15:12:55.622 [main] BaseTest - Application Url is opened
+[INFO ] 2024-07-25 15:12:55.671 [main] BaseTest - Entering the username
+[INFO ] 2024-07-25 15:12:58.914 [main] BaseTest - Entering the password
+[INFO ] 2024-07-25 15:13:06.537 [main] BaseTest - Login field is clicked
+[ERROR] 2024-07-25 15:13:06.589 [main] BaseTest - Failure information is executing
+[INFO ] 2024-07-25 15:13:06.772 [main] BaseTest - Application url is closed
+[INFO ] 2024-07-25 15:14:45.949 [main] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-25 15:14:56.590 [main] BaseTest - Application Url is opened
+[INFO ] 2024-07-25 15:14:56.631 [main] BaseTest - Entering the username
+[INFO ] 2024-07-25 15:14:59.242 [main] BaseTest - Entering the password
+[INFO ] 2024-07-25 15:15:05.528 [main] BaseTest - Login field is clicked
+[ERROR] 2024-07-25 15:15:05.582 [main] BaseTest - Failure information is executing
+[INFO ] 2024-07-25 15:15:05.794 [main] BaseTest - Application url is closed
+[INFO ] 2024-07-25 15:18:24.559 [main] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-25 15:18:26.696 [main] BaseTest - Application Url is opened
+[INFO ] 2024-07-25 15:18:26.719 [main] BaseTest - Entering the username
+[INFO ] 2024-07-25 15:18:38.088 [main] BaseTest - Entering the password
+[INFO ] 2024-07-25 15:18:44.365 [main] BaseTest - Login field is clicked
+[ERROR] 2024-07-25 15:18:44.419 [main] BaseTest - Failure information is executing
+[INFO ] 2024-07-25 15:18:44.613 [main] BaseTest - Application url is closed
+[INFO ] 2024-07-25 15:21:44.586 [main] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-25 15:21:54.190 [main] BaseTest - Application Url is opened
+[INFO ] 2024-07-25 15:21:54.230 [main] BaseTest - Entering the username
+[INFO ] 2024-07-25 15:21:56.824 [main] BaseTest - Entering the password
+[INFO ] 2024-07-25 15:22:03.133 [main] BaseTest - Login field is clicked
+[INFO ] 2024-07-25 15:22:03.192 [main] BaseTest - Application url is closed
+[INFO ] 2024-07-25 15:22:04.738 [main] BaseTest - Application Url is opened
+[INFO ] 2024-07-25 15:22:04.744 [main] BaseTest - Checking username and password fields are empty
+[ERROR] 2024-07-25 15:22:09.834 [main] BaseTest - Failure information is executing
+[INFO ] 2024-07-25 15:22:10.022 [main] BaseTest - Application url is closed
+[INFO ] 2024-07-25 15:25:36.601 [TestNG-test-Sanity Test-2] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-25 15:25:36.601 [TestNG-test-Sanity Test-3] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-25 15:25:36.605 [TestNG-test-Sanity Test-1] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-25 15:25:49.242 [TestNG-test-Sanity Test-2] BaseTest - Application Url is opened
+[INFO ] 2024-07-25 15:25:49.244 [TestNG-test-Sanity Test-1] BaseTest - Application Url is opened
+[INFO ] 2024-07-25 15:25:49.249 [TestNG-test-Sanity Test-3] BaseTest - Application Url is opened
+[INFO ] 2024-07-25 15:25:49.291 [TestNG-test-Sanity Test-2] BaseTest - Entering the username
+[INFO ] 2024-07-25 15:25:49.291 [TestNG-test-Sanity Test-3] BaseTest - Entering the username
+[INFO ] 2024-07-25 15:25:49.291 [TestNG-test-Sanity Test-1] BaseTest - Entering the username
+[INFO ] 2024-07-25 15:25:52.393 [TestNG-test-Sanity Test-3] BaseTest - Entering the password
+[INFO ] 2024-07-25 15:25:52.433 [TestNG-test-Sanity Test-2] BaseTest - Entering the password
+[INFO ] 2024-07-25 15:25:52.473 [TestNG-test-Sanity Test-1] BaseTest - Entering the password
+[INFO ] 2024-07-25 15:25:58.761 [TestNG-test-Sanity Test-3] BaseTest - Login field is clicked
+[INFO ] 2024-07-25 15:25:59.036 [TestNG-test-Sanity Test-3] BaseTest - Application url is closed
+[INFO ] 2024-07-25 15:26:00.116 [TestNG-test-Sanity Test-3] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-25 15:26:00.456 [TestNG-test-Sanity Test-2] BaseTest - Login field is clicked
+[INFO ] 2024-07-25 15:26:00.488 [TestNG-test-Sanity Test-1] BaseTest - Login field is clicked
+[INFO ] 2024-07-25 15:26:14.942 [TestNG-test-Sanity Test-3] BaseTest - Application Url is opened
+[INFO ] 2024-07-25 15:26:14.948 [TestNG-test-Sanity Test-3] BaseTest - Entering the username
+[ERROR] 2024-07-25 15:26:14.953 [TestNG-test-Sanity Test-1] BaseTest - Failure information is executing
+[ERROR] 2024-07-25 15:26:14.953 [TestNG-test-Sanity Test-2] BaseTest - Failure information is executing
+[INFO ] 2024-07-25 15:26:15.870 [TestNG-test-Sanity Test-2] BaseTest - Application url is closed
+[ERROR] 2024-07-25 15:26:15.991 [TestNG-test-Sanity Test-3] BaseTest - Failure information is executing
+[INFO ] 2024-07-25 15:26:16.934 [TestNG-test-Sanity Test-2] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-25 15:26:26.668 [TestNG-test-Sanity Test-2] BaseTest - Application Url is opened
+[INFO ] 2024-07-25 15:26:26.674 [TestNG-test-Sanity Test-2] BaseTest - Entering the username
+[INFO ] 2024-07-25 15:26:29.372 [TestNG-test-Sanity Test-2] BaseTest - Entering the password
+[INFO ] 2024-07-25 15:26:35.670 [TestNG-test-Sanity Test-2] BaseTest - Login field is clicked
+[INFO ] 2024-07-25 15:26:35.830 [TestNG-test-Sanity Test-2] BaseTest - Application url is closed
+[INFO ] 2024-07-25 15:31:22.832 [TestNG-test-Sanity Test-3] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-25 15:31:22.832 [TestNG-test-Sanity Test-2] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-25 15:31:22.832 [TestNG-test-Sanity Test-1] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-25 15:31:45.009 [TestNG-test-Sanity Test-2] BaseTest - Application Url is opened
+[INFO ] 2024-07-25 15:31:45.009 [TestNG-test-Sanity Test-3] BaseTest - Application Url is opened
+[INFO ] 2024-07-25 15:31:45.009 [TestNG-test-Sanity Test-1] BaseTest - Application Url is opened
+[INFO ] 2024-07-25 15:31:45.052 [TestNG-test-Sanity Test-3] BaseTest - Entering the username
+[INFO ] 2024-07-25 15:31:45.052 [TestNG-test-Sanity Test-2] BaseTest - Entering the username
+[INFO ] 2024-07-25 15:31:45.052 [TestNG-test-Sanity Test-1] BaseTest - Entering the username
+[INFO ] 2024-07-25 15:31:51.137 [TestNG-test-Sanity Test-3] BaseTest - Entering the password
+[INFO ] 2024-07-25 15:31:51.170 [TestNG-test-Sanity Test-1] BaseTest - Entering the password
+[INFO ] 2024-07-25 15:31:51.196 [TestNG-test-Sanity Test-2] BaseTest - Entering the password
+[INFO ] 2024-07-25 15:31:58.552 [TestNG-test-Sanity Test-3] BaseTest - Login field is clicked
+[ERROR] 2024-07-25 15:32:11.586 [TestNG-test-Sanity Test-3] BaseTest - Failure information is executing
+[ERROR] 2024-07-25 15:32:11.590 [TestNG-test-Sanity Test-2] BaseTest - Failure information is executing
+[ERROR] 2024-07-25 15:32:11.590 [TestNG-test-Sanity Test-1] BaseTest - Failure information is executing
+[INFO ] 2024-07-25 15:32:12.821 [TestNG-test-Sanity Test-3] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-25 15:32:12.865 [TestNG-test-Sanity Test-1] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-25 15:34:58.597 [main] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-25 15:35:22.026 [main] BaseTest - Application Url is opened
+[INFO ] 2024-07-25 15:35:22.075 [main] BaseTest - Username is entering
+[INFO ] 2024-07-25 15:35:26.060 [main] BaseTest - Password is entering
+[INFO ] 2024-07-25 15:35:33.309 [main] BaseTest - Login field is clicked
+[ERROR] 2024-07-25 15:35:38.420 [main] BaseTest - Failure information is executing
+[INFO ] 2024-07-25 15:35:38.749 [main] BaseTest - Application url is closed
+[INFO ] 2024-07-25 15:35:39.694 [main] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-25 15:35:51.082 [main] BaseTest - Application Url is opened
+[INFO ] 2024-07-25 15:35:51.084 [main] BaseTest - Entering the username
+[INFO ] 2024-07-25 15:35:54.087 [main] BaseTest - Entering the password
+[INFO ] 2024-07-25 15:36:01.421 [main] BaseTest - Login field is clicked
+[INFO ] 2024-07-25 15:36:01.686 [main] BaseTest - Application url is closed
+[INFO ] 2024-07-25 15:36:02.696 [main] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-25 15:36:12.566 [main] BaseTest - Application Url is opened
+[INFO ] 2024-07-25 15:36:12.566 [main] BaseTest - Username is entering
+[INFO ] 2024-07-25 15:36:15.283 [main] BaseTest - Password is entering
+[INFO ] 2024-07-25 15:36:23.653 [main] BaseTest - Login field is clicked
+[INFO ] 2024-07-25 15:36:23.892 [main] BaseTest - Application url is closed
+[INFO ] 2024-07-25 15:36:24.872 [main] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-25 15:36:33.660 [main] BaseTest - Application Url is opened
+[INFO ] 2024-07-25 15:36:33.663 [main] BaseTest - Username is entering
+[INFO ] 2024-07-25 15:36:36.736 [main] BaseTest - Password is entering
+[INFO ] 2024-07-25 15:36:43.984 [main] BaseTest - Login field is clicked
+[INFO ] 2024-07-25 15:36:44.151 [main] BaseTest - Application url is closed
+[INFO ] 2024-07-25 15:36:45.121 [main] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-25 15:37:05.091 [main] BaseTest - Application Url is opened
+[INFO ] 2024-07-25 15:37:05.096 [main] BaseTest - Entering the username
+[INFO ] 2024-07-25 15:37:08.290 [main] BaseTest - Entering the password
+[INFO ] 2024-07-25 15:37:15.547 [main] BaseTest - Login field is clicked
+[INFO ] 2024-07-25 15:37:15.771 [main] BaseTest - Application url is closed
+[INFO ] 2024-07-25 15:37:16.740 [main] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-25 15:37:38.523 [main] BaseTest - Application Url is opened
+[INFO ] 2024-07-25 15:37:38.523 [main] BaseTest - Username is entering
+[INFO ] 2024-07-25 15:37:42.148 [main] BaseTest - Password is entering
+[INFO ] 2024-07-25 15:37:49.448 [main] BaseTest - Login field is clicked
+[ERROR] 2024-07-25 15:37:54.523 [main] BaseTest - Failure information is executing
+[INFO ] 2024-07-25 15:37:54.843 [main] BaseTest - Application url is closed
+[INFO ] 2024-07-25 15:37:55.799 [main] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-25 15:38:03.603 [main] BaseTest - Application Url is opened
+[INFO ] 2024-07-25 15:38:03.606 [main] BaseTest - Entering the username
+[INFO ] 2024-07-25 15:38:06.276 [main] BaseTest - Entering the password
+[INFO ] 2024-07-25 15:38:13.561 [main] BaseTest - Login field is clicked
+[INFO ] 2024-07-25 15:38:13.731 [main] BaseTest - Application url is closed
+[INFO ] 2024-07-25 15:38:14.709 [main] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-25 15:38:20.971 [main] BaseTest - Application Url is opened
+[INFO ] 2024-07-25 15:38:20.973 [main] BaseTest - Username is entering
+[INFO ] 2024-07-25 15:38:23.650 [main] BaseTest - Password is entering
+[INFO ] 2024-07-25 15:38:31.882 [main] BaseTest - Login field is clicked
+[INFO ] 2024-07-25 15:38:32.038 [main] BaseTest - Application url is closed
+[INFO ] 2024-07-25 15:38:33.019 [main] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-25 15:38:53.759 [main] BaseTest - Application Url is opened
+[INFO ] 2024-07-25 15:38:53.762 [main] BaseTest - Username is entering
+[INFO ] 2024-07-25 15:38:59.024 [main] BaseTest - Password is entering
+[INFO ] 2024-07-25 15:39:09.317 [main] BaseTest - Login button is Clicked
+[INFO ] 2024-07-25 15:39:09.445 [main] BaseTest - Application url is closed
+[INFO ] 2024-07-25 15:39:10.434 [main] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-25 15:39:17.116 [main] BaseTest - Application Url is opened
+[INFO ] 2024-07-25 15:39:17.120 [main] BaseTest - Entering the username
+[INFO ] 2024-07-25 15:39:19.933 [main] BaseTest - Entering the password
+[INFO ] 2024-07-25 15:39:28.673 [main] BaseTest - Login field is clicked
+[INFO ] 2024-07-25 15:39:28.802 [main] BaseTest - Application url is closed
+[INFO ] 2024-07-25 15:39:29.943 [main] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-25 15:39:41.525 [main] BaseTest - Application Url is opened
+[INFO ] 2024-07-25 15:39:41.531 [main] BaseTest - Username is entering
+[INFO ] 2024-07-25 15:39:44.697 [main] BaseTest - Password is entering
+[INFO ] 2024-07-25 15:39:52.130 [main] BaseTest - Login field is clicked
+[INFO ] 2024-07-25 15:39:52.275 [main] BaseTest - Application url is closed
+[INFO ] 2024-07-25 15:39:53.238 [main] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-25 15:40:01.898 [main] BaseTest - Application Url is opened
+[INFO ] 2024-07-25 15:40:01.902 [main] BaseTest - Entering the username
+[INFO ] 2024-07-25 15:40:05.257 [main] BaseTest - Entering the password
+[INFO ] 2024-07-25 15:40:07.845 [main] BaseTest - Application url is closed
+[INFO ] 2024-07-25 15:40:08.820 [main] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-25 15:40:19.483 [main] BaseTest - Application Url is opened
+[INFO ] 2024-07-25 15:40:19.489 [main] BaseTest - Entering the username
+[INFO ] 2024-07-25 15:40:22.483 [main] BaseTest - Entering the password
+[INFO ] 2024-07-25 15:40:30.750 [main] BaseTest - Login field is clicked
+[INFO ] 2024-07-25 15:40:30.894 [main] BaseTest - Application url is closed
+[INFO ] 2024-07-25 15:40:31.837 [main] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-25 15:40:44.505 [main] BaseTest - Application Url is opened
+[INFO ] 2024-07-25 15:40:44.511 [main] BaseTest - Entering the username
+[INFO ] 2024-07-25 15:40:47.719 [main] BaseTest - Entering the password
+[INFO ] 2024-07-25 15:40:55.120 [main] BaseTest - Login field is clicked
+[INFO ] 2024-07-25 15:40:55.266 [main] BaseTest - Application url is closed
+[INFO ] 2024-07-25 15:40:56.257 [main] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-25 15:41:10.520 [main] BaseTest - Application Url is opened
+[INFO ] 2024-07-25 15:41:10.520 [main] BaseTest - Username is entering
+[INFO ] 2024-07-25 15:41:13.666 [main] BaseTest - Password is entering
+[INFO ] 2024-07-25 15:41:22.433 [main] BaseTest - Login field is clicked
+[INFO ] 2024-07-25 15:41:22.562 [main] BaseTest - Application url is closed
+[INFO ] 2024-07-25 15:41:23.560 [main] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-25 15:41:34.001 [main] BaseTest - Application Url is opened
+[INFO ] 2024-07-25 15:41:34.008 [main] BaseTest - Entering the username
+[INFO ] 2024-07-25 15:41:36.853 [main] BaseTest - Entering the password
+[INFO ] 2024-07-25 15:41:44.200 [main] BaseTest - Login button is clicked
+[INFO ] 2024-07-25 15:41:46.412 [main] BaseTest - Application url is closed
+[INFO ] 2024-07-25 15:41:47.379 [main] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-25 15:41:55.572 [main] BaseTest - Application Url is opened
+[INFO ] 2024-07-25 15:41:55.574 [main] BaseTest - Username is entering
+[ERROR] 2024-07-25 15:41:55.580 [main] BaseTest - Failure information is executing
+[INFO ] 2024-07-25 16:38:43.567 [main] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-25 16:38:55.934 [main] BaseTest - Application Url is opened
+[INFO ] 2024-07-25 16:38:55.934 [main] BaseTest - Username is entering
+[INFO ] 2024-07-25 16:38:58.867 [main] BaseTest - Password is entering
+[INFO ] 2024-07-25 16:39:06.047 [main] BaseTest - Login field is clicked
+[INFO ] 2024-07-25 16:39:06.160 [main] BaseTest - Application url is closed
+[INFO ] 2024-07-25 16:39:08.125 [main] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-25 16:39:25.003 [main] BaseTest - Application Url is opened
+[INFO ] 2024-07-25 16:39:25.005 [main] BaseTest - Username is entering
+[INFO ] 2024-07-25 16:39:28.074 [main] BaseTest - Password is entering
+[INFO ] 2024-07-25 16:39:35.247 [main] BaseTest - Login field is clicked
+[ERROR] 2024-07-25 16:39:40.303 [main] BaseTest - Failure information is executing
+[INFO ] 2024-07-25 16:39:40.498 [main] BaseTest - Application url is closed
+[INFO ] 2024-07-25 16:39:41.355 [main] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-25 16:39:57.515 [main] BaseTest - Application Url is opened
+[INFO ] 2024-07-25 16:39:57.515 [main] BaseTest - Username is entering
+[INFO ] 2024-07-25 16:40:00.313 [main] BaseTest - Password is entering
+[INFO ] 2024-07-25 16:40:09.009 [main] BaseTest - Login field is clicked
+[INFO ] 2024-07-25 16:40:09.130 [main] BaseTest - Application url is closed
+[INFO ] 2024-07-25 16:40:09.983 [main] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-25 16:40:19.829 [main] BaseTest - Application Url is opened
+[INFO ] 2024-07-25 16:40:19.837 [main] BaseTest - Username is entering
+[INFO ] 2024-07-25 16:40:22.453 [main] BaseTest - Password is entering
+[INFO ] 2024-07-25 16:40:29.694 [main] BaseTest - Login field is clicked
+[INFO ] 2024-07-25 16:40:29.809 [main] BaseTest - Application url is closed
+[INFO ] 2024-07-25 16:40:30.868 [main] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-25 16:40:43.225 [main] BaseTest - Application Url is opened
+[INFO ] 2024-07-25 16:40:43.228 [main] BaseTest - Entering the username
+[INFO ] 2024-07-25 16:40:45.893 [main] BaseTest - Entering the password
+[INFO ] 2024-07-25 16:40:53.192 [main] BaseTest - Login field is clicked
+[INFO ] 2024-07-25 16:40:53.319 [main] BaseTest - Application url is closed
+[INFO ] 2024-07-25 16:40:54.294 [main] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-25 16:41:08.293 [main] BaseTest - Application Url is opened
+[INFO ] 2024-07-25 16:41:09.034 [main] BaseTest - Application url is closed
+[INFO ] 2024-07-25 17:03:30.916 [main] BaseTest - Entering the username
+[INFO ] 2024-07-25 17:04:54.649 [main] BaseTest - Entering the username
+[INFO ] 2024-07-25 17:04:57.400 [main] BaseTest - Entering the password
+[INFO ] 2024-07-25 17:05:04.738 [main] BaseTest - Login field is clicked
+[INFO ] 2024-07-25 17:06:28.772 [main] BaseTest - Entering the username
+[INFO ] 2024-07-25 17:06:31.446 [main] BaseTest - Entering the password
+[INFO ] 2024-07-25 17:06:40.188 [main] BaseTest - Login field is clicked
+[INFO ] 2024-07-25 17:06:53.593 [main] BaseTest - Checking username and password fields are empty
+[INFO ] 2024-07-25 17:10:44.471 [main] BaseTest - Entering the username
+[INFO ] 2024-07-25 17:10:47.467 [main] BaseTest - Entering the password
+[INFO ] 2024-07-25 17:10:56.078 [main] BaseTest - Login field is clicked
+[INFO ] 2024-07-25 17:11:06.527 [main] BaseTest - Checking username and password fields are empty
+[INFO ] 2024-07-26 07:19:45.207 [main] BaseTest - Entering the username
+[INFO ] 2024-07-26 07:19:47.788 [main] BaseTest - Entering the password
+[INFO ] 2024-07-26 07:19:56.333 [main] BaseTest - Login field is clicked
+[INFO ] 2024-07-26 07:20:06.989 [main] BaseTest - Checking login page
+[INFO ] 2024-07-26 07:23:04.323 [main] BaseTest - Entering the username
+[INFO ] 2024-07-26 07:23:06.891 [main] BaseTest - Entering the password
+[INFO ] 2024-07-26 07:23:15.608 [main] BaseTest - Login field is clicked
+[INFO ] 2024-07-26 07:23:27.897 [main] BaseTest - Checking login page
+[INFO ] 2024-07-26 07:23:27.912 [main] BaseTest - Checking username and password fields are empty
+[INFO ] 2024-07-26 07:26:27.203 [TestNG-test-Sanity Test-1] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-26 07:26:35.494 [TestNG-test-Sanity Test-1] BaseTest - Application Url is opened
+[INFO ] 2024-07-26 07:26:36.313 [TestNG-test-Sanity Test-1] BaseTest - Application url is closed
+[INFO ] 2024-07-26 07:27:16.665 [TestNG-test-Sanity Test-1] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-26 07:27:24.899 [TestNG-test-Sanity Test-1] BaseTest - Application Url is opened
+[INFO ] 2024-07-26 07:27:24.940 [TestNG-test-Sanity Test-1] BaseTest - Entering the username
+[INFO ] 2024-07-26 07:27:27.625 [TestNG-test-Sanity Test-1] BaseTest - Entering the password
+[INFO ] 2024-07-26 07:27:34.917 [TestNG-test-Sanity Test-1] BaseTest - Login field is clicked
+[INFO ] 2024-07-26 07:27:35.150 [TestNG-test-Sanity Test-1] BaseTest - Application url is closed
+[INFO ] 2024-07-26 07:31:11.017 [TestNG-test-Sanity Test-1] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-26 07:31:19.066 [TestNG-test-Sanity Test-1] BaseTest - Application Url is opened
+[INFO ] 2024-07-26 07:31:19.107 [TestNG-test-Sanity Test-1] BaseTest - Entering the username
+[INFO ] 2024-07-26 07:31:21.718 [TestNG-test-Sanity Test-1] BaseTest - Entering the password
+[INFO ] 2024-07-26 07:31:29.048 [TestNG-test-Sanity Test-1] BaseTest - Login field is clicked
+[INFO ] 2024-07-26 07:31:29.246 [TestNG-test-Sanity Test-1] BaseTest - Application url is closed
+[INFO ] 2024-07-26 07:31:30.219 [TestNG-test-Sanity Test-1] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-26 07:31:35.010 [TestNG-test-Sanity Test-1] BaseTest - Application Url is opened
+[INFO ] 2024-07-26 07:31:38.046 [TestNG-test-Sanity Test-1] BaseTest - Checking login page
+[INFO ] 2024-07-26 07:31:38.062 [TestNG-test-Sanity Test-1] BaseTest - Checking username and password fields are empty
+[INFO ] 2024-07-26 07:31:38.277 [TestNG-test-Sanity Test-1] BaseTest - Application url is closed
+[INFO ] 2024-07-26 07:35:50.251 [TestNG-test-Sanity Test-1] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-26 07:35:58.627 [TestNG-test-Sanity Test-1] BaseTest - Application Url is opened
+[INFO ] 2024-07-26 07:35:58.668 [TestNG-test-Sanity Test-1] BaseTest - Entering the username
+[INFO ] 2024-07-26 07:36:01.255 [TestNG-test-Sanity Test-1] BaseTest - Entering the password
+[INFO ] 2024-07-26 07:36:08.511 [TestNG-test-Sanity Test-1] BaseTest - Login field is clicked
+[INFO ] 2024-07-26 07:36:08.685 [TestNG-test-Sanity Test-1] BaseTest - Application url is closed
+[INFO ] 2024-07-26 07:36:09.699 [TestNG-test-Sanity Test-1] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-26 07:36:16.682 [TestNG-test-Sanity Test-1] BaseTest - Application Url is opened
+[ERROR] 2024-07-26 07:36:21.803 [TestNG-test-Sanity Test-1] BaseTest - Failure information is executing
+[INFO ] 2024-07-26 07:36:22.240 [TestNG-test-Sanity Test-1] BaseTest - Application url is closed
+[INFO ] 2024-07-26 07:37:34.061 [TestNG-test-Sanity Test-1] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-26 07:37:43.201 [TestNG-test-Sanity Test-1] BaseTest - Application Url is opened
+[INFO ] 2024-07-26 07:37:43.248 [TestNG-test-Sanity Test-1] BaseTest - Entering the username
+[INFO ] 2024-07-26 07:37:45.794 [TestNG-test-Sanity Test-1] BaseTest - Entering the password
+[INFO ] 2024-07-26 07:37:53.077 [TestNG-test-Sanity Test-1] BaseTest - Login field is clicked
+[INFO ] 2024-07-26 07:37:53.213 [TestNG-test-Sanity Test-1] BaseTest - Application url is closed
+[INFO ] 2024-07-26 07:37:54.214 [TestNG-test-Sanity Test-1] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-26 07:38:00.894 [TestNG-test-Sanity Test-1] BaseTest - Application Url is opened
+[ERROR] 2024-07-26 07:38:08.985 [TestNG-test-Sanity Test-1] BaseTest - Failure information is executing
+[INFO ] 2024-07-26 07:38:09.298 [TestNG-test-Sanity Test-1] BaseTest - Application url is closed
+[INFO ] 2024-07-26 07:41:18.402 [TestNG-test-Sanity Test-1] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-26 07:41:26.217 [TestNG-test-Sanity Test-1] BaseTest - Application Url is opened
+[INFO ] 2024-07-26 07:41:26.267 [TestNG-test-Sanity Test-1] BaseTest - Entering the username
+[INFO ] 2024-07-26 07:41:28.854 [TestNG-test-Sanity Test-1] BaseTest - Entering the password
+[INFO ] 2024-07-26 07:41:37.431 [TestNG-test-Sanity Test-1] BaseTest - Login field is clicked
+[INFO ] 2024-07-26 07:41:37.670 [TestNG-test-Sanity Test-1] BaseTest - Application url is closed
+[INFO ] 2024-07-26 07:41:38.640 [TestNG-test-Sanity Test-1] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-26 07:41:47.443 [TestNG-test-Sanity Test-1] BaseTest - Application Url is opened
+[ERROR] 2024-07-26 07:41:57.507 [TestNG-test-Sanity Test-1] BaseTest - Failure information is executing
+[INFO ] 2024-07-26 07:41:57.791 [TestNG-test-Sanity Test-1] BaseTest - Application url is closed
+[INFO ] 2024-07-26 07:43:49.544 [TestNG-test-Sanity Test-1] BaseTest - Chrome browser is opened
+[INFO ] 2024-07-26 07:43:55.705 [TestNG-test-Sanity Test-1] BaseTest - Application Url is opened
+[INFO ] 2024-07-26 07:43:55.747 [TestNG-test-Sanity Test-1] BaseTest - Entering the username
+[INFO ] 2024-07-26 07:43:58.319 [TestNG-test-Sanity Test-1] BaseTest - Entering the password
+[INFO ] 2024-07-26 07:44:05.618 [TestNG-test-Sanity Test-1] BaseTest - Login field is clicked
+[INFO ] 2024-07-26 07:44:08.825 [TestNG-test-Sanity Test-1] BaseTest - Application url is closed
